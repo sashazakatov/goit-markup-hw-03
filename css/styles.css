@@ -224,6 +224,8 @@ ul
 
 /* features section */
 .features-title{
+    margin-bottom: 10px;
+
     color: var(--secondory-color);
 
     font-weight: 700;
@@ -232,6 +234,15 @@ ul
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+.features-list{
+    flex-wrap: wrap;
+}
+.features-list .item{
+    width: 270px;
+}
+.features-list .item:not(:nth-child(4n)){
+    margin-right: 30px;
 }
 /* development-section */
 
