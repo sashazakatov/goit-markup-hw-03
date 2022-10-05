@@ -108,6 +108,10 @@ ul
 }
 /* title */
 .title {
+    text-align: center;
+
+    margin-bottom: 50px;
+
     color: var(--secondory-color);
 
     font-weight: 700;
@@ -245,10 +249,6 @@ ul
     margin-right: 30px;
 }
 /* development-section */
-.developmen-title{
-    text-align: center;
-    margin-bottom: 50px;
-}
 .list-developmen{
     flex-wrap: wrap;
 }
@@ -256,8 +256,12 @@ ul
     margin-right: 30px;
 }
 /* employee section */
-.employee-title
-{
+.card-text{
+    text-align: center;
+}
+.employee-card-title{
+    margin-bottom: 10px;
+
     color: var(--secondory-color);
 
     font-weight: 500;
@@ -266,7 +270,7 @@ ul
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-.employee-text{
+.employee-card-text{
     line-height: 1.71;
 }
 
@@ -275,7 +279,9 @@ ul
     background-color: #2F303A;
 }
 .logo.bottom-logo {
+    display: block;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 .bottom-text{
     color: #fff;
@@ -285,6 +291,10 @@ ul
 
     line-height: 1.7;
     letter-spacing: 0.03em;
+}
+.bottom-span{
+    display: block;
+   margin-bottom: 9px; 
 }
 .bottom-contact {
     color: rgba(255, 255, 255, 0.6);
