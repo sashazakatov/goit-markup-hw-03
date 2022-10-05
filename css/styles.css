@@ -22,6 +22,17 @@ body
     letter-spacing: 0.03em;
 }
 
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;    
+}
+
+h1,h2,h3,p,ul
+{
+    margin: 0px;    
+}
+
 /* visually hidden */
 .visually-hidden {
     position: absolute;
