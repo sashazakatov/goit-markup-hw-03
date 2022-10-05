@@ -89,12 +89,15 @@ ul
 
 /* button */
 .button {
+
     color: var(--secondory-button-color);
     background-color: var(--secondory-button-background-color);
 
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
+
+    border-radius: 4px;
     
     line-height: 1.6;
     letter-spacing: 0.03em;
@@ -105,6 +108,7 @@ ul
 .button:focus {
     color: var(--pramiry-button-color);
     background-color: var(--pramiry-button-background-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* title */
 .title {
@@ -160,7 +164,9 @@ ul
     letter-spacing: 0.02em;
 }
 
-.list .item:not(:last-child){
+.list-nav .item:not(:last-child),
+.list-contact .item:not(:last-child)
+{
     margin-right:50px;
 }
 .list-nav
@@ -307,10 +313,31 @@ ul
 }
 
 /* product section */
+.list-botton
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 56px;
+}
+.product-card{
+    flex-wrap: wrap;
+}
+.product-card .item{
+    width: 370px;
+}
+.product-card .item:not(:nth-child(n+7)){
+    margin-bottom: 30px;
+}
+.product-card .item:not(:nth-child(n3+3))
+{
+    margin-right: 30px;
+}
 .product-link{
     text-decoration: none;
 }
 .product-title{
+    margin-top: 20px;
+    margin-bottom: 4px;
     color: var(--secondory-button-color);
 
     font-weight: 700;
