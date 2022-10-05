@@ -34,7 +34,8 @@ h3,
 p,
 ul
 {
-    margin: 0px;    
+    margin: 0px;
+    padding: 0px;   
 }
 
 /* visually hidden */
@@ -66,6 +67,8 @@ ul
 
 /* list */
 .list {
+    display: flex;
+
     list-style: none;
 }
 
@@ -115,6 +118,10 @@ ul
 }
 
 /* header */
+.flex-header{
+    display: flex;
+    align-items: center;
+}
  .logo{
     color: #000000;
 
@@ -138,7 +145,7 @@ ul
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.link.this-page {
+.link.this-page{
     color: var(--company-color);
 }
 .top-contact {
@@ -149,6 +156,23 @@ ul
     letter-spacing: 0.02em;
 }
 
+.list .item:not(:last-child){
+    margin-right:50px;
+}
+.list-nav
+{
+    margin-left: 93px;
+}
+.list.list-contact{
+    margin-left: auto;
+}
+.flex-header .link
+{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
 
 /* hero section */
 .hero-section{
