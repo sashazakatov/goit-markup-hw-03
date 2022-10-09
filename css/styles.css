@@ -64,7 +64,12 @@ ul
 
     outline: 1px solid red;
 }
-
+/* section */
+.section
+{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 /* list */
 .list {
     display: flex;
@@ -140,6 +145,10 @@ ul
     display: flex;
     gap:50px;
 }
+.list-nav .item{
+    padding-top: 33px;
+    padding-bottom: 31px;
+}
 .logo{
     color: #000000;
 
@@ -181,6 +190,11 @@ ul
 /* hero section */
 .hero-section{
     background-color: #2F303A;
+}
+.hero-section .section{
+    height: 600px;
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
 .hero-title{
     margin-bottom: 30px;
@@ -230,6 +244,9 @@ ul
 }
 
 /* features section */
+.features-section .section{
+    padding-bottom: 0px;
+}
 .features-title{
     margin-bottom: 10px;
 
@@ -258,6 +275,7 @@ ul
 }
 /* employee section */
 .list-employee{
+    flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
 }
@@ -282,6 +300,11 @@ ul
 /* footer */
 .bottom-section{
     background-color: #2F303A;
+}
+.bottom-section .section
+{
+    padding-top: 60px;
+    padding-bottom: 60px;  
 }
 .logo.bottom-logo {
     display: block;

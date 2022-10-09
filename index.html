@@ -18,42 +18,46 @@
     <title>Web Studio</title>
   </head>
   <body>
-    <header>
-      <div class="container flex-header">
-        <nav class="flex-nav">
-          <a class="logo" href="./index.html"><span class="logo-cover">Web</span>Studio</a>
-          <ul class="list list-nav">
-            <li class="item">
-              <a class="link navigation-link this-page" href="./index.html">Студія</a>
-            </li>
-            <li class="item">
-              <a class="link navigation-link" href="./portfolio.html">Портфоліо</a>
-            </li>
-            <li class="item">
-              <a class="link navigation-link" href="#">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="list list-contact">
-          <li class="item">
-            <a class="link top-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="item">
-            <a class="link top-contact" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
+    <header class="header-section">
+      <div class="container">
+        <div class="flex-header">
+            <nav class="flex-nav">
+              <a class="logo" href="./index.html"><span class="logo-cover">Web</span>Studio</a>
+                <ul class="list list-nav">
+                  <li class="item">
+                    <a class="link navigation-link this-page" href="./index.html">Студія</a>
+                  </li>
+                  <li class="item">
+                    <a class="link navigation-link" href="./portfolio.html">Портфоліо</a>
+                  </li>
+                  <li class="item">
+                    <a class="link navigation-link" href="#">Контакти</a>
+                  </li>
+                </ul>
+              </nav>
+            <ul class="list list-contact">
+              <li class="item">
+                <a class="link top-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="item">
+                <a class="link top-contact" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+        </div>
       </div>
     </header>
     <main>
       <section class="hero-section">
         <div class="container">
+         <div class="section"> 
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-button" type="button"><span class="button-text">Замовити послугу<span></button>
+          <button class="hero-button" type="button"><span class="button-text">Замовити послугу<span></button></div>
         </div>
       </section>
       <section class="features-section">
         <div class="container">
-          <h2 class="visually-hidden">Особливості</h2>
+          <div class="section">
+            <h2 class="visually-hidden">Особливості</h2>
           <ul class="list list-features">
             <li class="item">
               <h3 class="features-title">Увага до деталей</h3>
@@ -76,11 +80,13 @@
               </p>
             </li>
           </ul>
+          </div>
         </div>
       </section>
       <section class="development-section">
         <div class="container">
-          <h2 class="title developmen-title">Чим ми займаємося</h2>
+          <div class="section">
+            <h2 class="title developmen-title">Чим ми займаємося</h2>
           <ul class="list list-developmen">
             <li class="item"><img src="./images/1.jpg" alt="розробка програми" width="370" height="294" /></li>
             <li class="item">
@@ -95,10 +101,12 @@
               <img src="./images/3.jpg" alt="вибір кольору до дизайну" width="370" height="294" />
             </li>
           </ul>
+          </div>
         </div>
       </section>
       <section class="employee-section">
         <div class="container">
+          <div class="section">
           <h2 class="title employee-title">Наша команда</h2>
           <ul class="list list-employee">
             <li class="item">
@@ -150,12 +158,14 @@
               </div>
             </li>
           </ul>
+          </div>
         </div>
       </section>
     </main>
     <footer class="bottom-section">
       <div class="container">
-        <a class="logo bottom-logo" href="./index.html"
+        <div class="section">
+          <a class="logo bottom-logo" href="./index.html"
           ><span class="logo-cover">Web</span>Studio</a
         >
         <address class="bottom-text"><span class="bottom-span">м. Київ, пр-т Лесі Українки, 26</span></address>
@@ -165,6 +175,7 @@
           <a class="link bottom-contact" href="tel:+380961111111">+38 096 111 11 11</a>
           </ul>
         </address>
+        </div>
       </div>
     </footer>
   </body>
