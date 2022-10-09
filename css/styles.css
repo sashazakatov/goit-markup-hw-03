@@ -242,23 +242,25 @@ ul
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.features-list{
+.list-features{
     flex-wrap: wrap;
+    gap:30px;
 }
 .list-features .item{
     width: 270px;
 }
-.list-features .item:not(:nth-child(4n+4)){
-    margin-right: 30px;
-}
+
 /* development-section */
 .list-developmen{
     flex-wrap: wrap;
-}
-.list-developmen .item:not(:nth-child(4n+4)){
-    margin-right: 30px;
+    gap: 30px;
+    justify-content: center;
 }
 /* employee section */
+.list-employee{
+    gap: 30px;
+    justify-content: center;
+}
 .card-text{
     text-align: center;
 }
@@ -324,15 +326,11 @@ ul
 }
 .product-card{
     flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
 }
 .product-card .item{
     width: 370px;
-}
-.product-card .item:not(:nth-child(n3)) {
-    margin-right: 30px;
-}
-.product-card .item:not(:nth-child(n+7)){
-    margin-bottom: 30px;
 }
 .product-link{
     text-decoration: none;
