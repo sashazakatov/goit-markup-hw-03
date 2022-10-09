@@ -129,8 +129,18 @@ ul
 .flex-header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
- .logo{
+.flex-nav{
+    display: flex;
+    align-items: center;
+    gap: 93px;
+}
+.list-nav{
+    display: flex;
+    gap:50px;
+}
+.logo{
     color: #000000;
 
     font-family: 'Raleway';
@@ -163,37 +173,23 @@ ul
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-
-.list-nav .item:not(:last-child),
-.list-contact .item:not(:last-child)
-{
-    margin-right:50px;
-}
-.list-nav
-{
-    margin-left: 93px;
-}
 .list.list-contact{
-    margin-left: auto;
+    gap: 50px;
 }
-.flex-header .link
-{
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
-}
 
 /* hero section */
 .hero-section{
     background-color: #2F303A;
 }
 .hero-title{
+    margin-bottom: 30px;
+
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 
-    width: 696px;
+    max-width: 696px;
 
     color: #FFFFFF;
 
@@ -228,6 +224,7 @@ ul
     cursor: pointer;
 }
 .hero-button .button-text{
+
     display: block;
     padding: 10px 32px;
 }
@@ -315,9 +312,15 @@ ul
 /* product section */
 .list-botton
 {
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     margin-bottom: 56px;
+}
+.list-botton .item:not(:last-child)
+{
+    margin-right: 8px;    
 }
 .product-card{
     flex-wrap: wrap;
@@ -325,12 +328,11 @@ ul
 .product-card .item{
     width: 370px;
 }
+.product-card .item:not(:nth-child(n3)) {
+    margin-right: 30px;
+}
 .product-card .item:not(:nth-child(n+7)){
     margin-bottom: 30px;
-}
-.product-card .item:not(:nth-child(n3+3))
-{
-    margin-right: 30px;
 }
 .product-link{
     text-decoration: none;
